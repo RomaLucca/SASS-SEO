@@ -1,0 +1,31 @@
+//variables
+$colorrgb: salmon;
+$widthH1: 400px;
+$colorback: rgb(188, 13, 211);
+
+body{
+
+    background-color: $colorrgb;
+}
+
+h1{ 
+    color: $colorrgb;
+    text-align: center;
+background-color: white;
+padding: 15px;
+}
+
+p{
+    width: $widthH1;
+}
+ // extend   
+h2 { color: $colorback;
+    text-decoration: underline;
+    text-align:center;
+background-color: grey;
+padding: 5px;}
+
+h3{
+    @extend h2
+
+}

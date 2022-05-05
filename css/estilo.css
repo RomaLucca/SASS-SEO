@@ -1,0 +1,18 @@
+body {
+  background-color: salmon; }
+
+h1 {
+  color: salmon;
+  text-align: center;
+  background-color: white;
+  padding: 15px; }
+
+p {
+  width: 400px; }
+
+h2, h3 {
+  color: #bc0dd3;
+  text-decoration: underline;
+  text-align: center;
+  background-color: grey;
+  padding: 5px; }
